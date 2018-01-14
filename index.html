@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Polish notation calculator</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <h3 class="text-center">
+            Please click <b>Start</b> button
+        </h3>
+        <div class="row buttons-action">
+            <div class="col-sm-4">
+            </div>
+            <div class="col-sm-4">
+                <button type="button" id="start" class="btn btn-success">Start requests</button>
+                <button type="button" id="stop" class="btn btn-info disabled">Stop</button>
+            </div>
+            <div class="col-sm-4"></div>
+        </div>
+        <div class="row" id="elements">
+            <div class="element" style="display: none;">
+                <div class="row">
+                    <div class="col-sm-9 expr-result">Expressions</div>
+                    <div class="col-sm-3 pass-result">
+                        <div class="alert">False</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 calc-result">Result of calculation</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

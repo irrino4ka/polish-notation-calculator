@@ -1,0 +1,24 @@
+.element {
+    padding: 7px;
+    margin: 10px;;
+    border: 1px solid #21b42b;
+    font: 14px arial;
+}
+
+.element .alert {
+    margin-top: 3px;
+    margin-bottom: 2px;
+}
+
+.buttons-action {
+    margin-bottom: 3px;
+    text-align: center;
+}
+
+.expr-result{
+    margin-bottom: 5px;
+}
+
+.calc-result {
+    font-weight: bold;
+}
