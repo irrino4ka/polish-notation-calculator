@@ -40,9 +40,9 @@ let postCalculatedExpressions = (id, results) => {
     });
 
     let options = {
-        host: 'www.eliftech.com',
+        host: 'u0byf5fk31.execute-api.eu-west-1.amazonaws.com',
         port: 443,
-        path: '/school-task',
+        path: '/etschool/task',
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
@@ -69,7 +69,7 @@ let postCalculatedExpressions = (id, results) => {
     req.end();
 }
 
-https.get("https://www.eliftech.com/school-task", (res) => {
+https.get("https://u0byf5fk31.execute-api.eu-west-1.amazonaws.com/etschool/task", (res) => {
 
     if (Math.floor(res.statusCode / 100) === 5) {
         console.error(`Server error (${res.statusCode})`);
