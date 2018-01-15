@@ -1,4 +1,4 @@
-const URL = "https://www.eliftech.com/school-task";
+const URL = "https://u0byf5fk31.execute-api.eu-west-1.amazonaws.com/etschool/task";
 
 $(document).ready(function () {
     
